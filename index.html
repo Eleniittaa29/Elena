@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicología</title>
+    <!-- Se ha eliminado el enlace a Google Fonts para evitar posibles riesgos externos -->
+    <link rel="stylesheet" href="Psicologia.css"> <!-- Archivo CSS externo -->
+</head>
+
+<body>
+    <!-- Encabezado principal -->
+    <header>
+        <nav>
+            <div class="menu">
+                <div class="img1" id="inicio">
+                    <img src="IMG/1.png" alt="Logo de la empresa" width="100" height="100" title="Logo" onclick="irAInicio()">
+                </div>
+                <div class="nombre">
+                    <p>Elena Grigoras</p>
+                </div>
+
+                <div class="nombre1">
+                    <p>Psicologa</p>
+                </div>
+
+                <ul>
+                    <li><a href="#inicio" onclick="irAInicio(); return false;">Inicio</a></li>
+                    <li><a href="#sobremi">Sobre mi</a></li>
+                    <li class="dropdown">
+                        <a href="#servicios" class="dropbtn">Servicios</a>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="navigateTo('info1.html')">Psicología infantil y juvenil</a>
+                            <a href="#" onclick="navigateTo('info3.html')">Psicología sexual y pareja</a>
+                            <a href="#" onclick="navigateTo('info2.html')">Personas con alta sensibilidad (PAS)</a>
+                        </div>
+                    </li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="container">
+                    <button class="btn">Pide cita: 652 527 287</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <section class="seccion1" id="inicio" style="height: 100vh;">
+            <div class="img2">
+                <img src="IMG/3.png" alt="Logo de la empresa" width="100%" height="690px" title="Logo">
+            </div>
+            <h1 class="nom">Elena Grigoras</h1>
+            <h2 class="lugar">Psicóloga en Madrid</h2>
+            <p class="especialista">Especialista en EMDR, personas con alta sensibilidad (Pas) y discapacidad.</p>
+            <div class="boton">
+                <button class="btn" id="Contactar" onclick="irAContacto()">Contactar</button>
+            </div>
+        </section>
+
+        <div id="sobremi" class="sobremi">
+            <div>
+                <h3 class="h3">Sobre mi</h3>
+            </div>
+
+            <div class="parallax"></div>
+
+            <div style="background-color:white; height: 450px;">
+                <p class="nom1">Hola, me llamo Elena Grigoras</p>
+                <p class="text2">Soy psicóloga sanitaria graduada por la universidad complutense de Madrid. Colegiada en
+                    el colegio de psicólogos de Madrid con número M-33771. Actualmente, dirijo mi propio despacho
+                    privado en Madrid trabajando con niños, adolescentes, adultos y parejas, mientras lo compagino
+                    colaborando con diferentes centros como Psicóloga Sanitaria.</p>
+            </div>
+
+            <div class="boton1">
+                <button class="btn" onclick="irASobreMi()">Conóceme más</button>
+            </div>
+        </div>
+
+        <section class="section3" id="servicios">
+            <div class="cont2">
+                <p class="serv">Servicios</p>
+                <p class="ayuda"><strong>En qué te puedo ayudar</strong></p>
+            </div>
+            <div class="cartas">
+                <div class="card">
+
+                    <img src="IMG/7jpg.jpeg" alt="Avatar" style="width:100%;height: 300px;">
+                    <div class="cardcont">
+                        <h4><b>Psicoterapia infantil y juvenil</b></h4>
+                        <p>Durante la terapia trabajaremos mano a mano con los padres o cuidadores del menor ya que es
+                            un pilar fundamental.</p>
+                        <button class="buttoncard" onclick="irAInfo1()" style="vertical-align:middle"><span>Más
+                                información </span></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/9.jpg" alt="Avatar" style="width:100%;height: 300px;">
+                    <div class="cardcont">
+                        <h4><b>Personas con alta sensibilidad (PAS)</b></h4>
+                        <p>Las personas PAS tienen su sistema nervioso más desarrollado que la mayoría de la gente.
+                        </p>
+                        <button class="buttoncard" onclick="irAInfo2()" style="vertical-align:middle"><span>Más
+                                información </span></button>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/8.jpg" alt="Avatar" style="width:100%;height: 300px; ">
+                    <div class="cardcont">
+                        <h4><b>Terapia sexual y de pareja</b></h4>
+                        <p>¿Sientes que últimamente algo no funciona en tu pareja?, ¿hay discusiones de forma constante?
+                        </p>
+                        <button class="buttoncard" onclick="irAInfo3()" style="vertical-align:middle"><span>Más
+                                información </span></button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="IMG/1.png" alt="Logo de Elena Grigoras" width="100" height="100" onclick="irAInicio()">
+                <p>Elena Grigoras</p>
+                <p>Psicóloga</p>
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="#inicio" onclick="irAInicio()">Inicio</a></li>
+                    <li><a href="#sobremi">Sobre mí</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contáctame</h3>
+                <p>Pide cita: <strong>652 527 287</strong></p>
+                <!-- Eliminé los enlaces a las redes sociales ya que eran externos -->
+            </div>
+        </div>
+        <div class="footer-legal">
+            <ul>
+                <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                <li><a href="cookies.html">Cookies</a></li>
+            </ul>
+            <p>&copy; 2024 Elena Grigoras. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="Psicologia.js"></script> <!-- Script JS externo -->
+</body>
+
+</html>
