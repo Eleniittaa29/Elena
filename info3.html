@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicología</title>
+    <link rel="stylesheet" href="Psicologia.css"> <!-- Archivo CSS externo -->
+</head>
+
+<body>
+    <!-- Encabezado principal -->
+    <header>
+        <nav>
+            <div class="menu">
+                <div class="img1" id="inicio">
+                    <img src="IMG/1.png" alt="Logo de la empresa" width="100" height="100" title="Logo"  onclick="irAInicio()" >
+                </div>
+
+                <div class="nombre">
+                    <p>Elena Grigoras</p>
+                </div>
+
+                <div class="nombre1">
+                    <p>Psicóloga</p>
+                </div>
+
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="Psicologia.html#sobremi">Sobre mí</a></li>
+                    <li class="dropdown">
+                        <a href="Psicologia.html#servicios" class="dropbtn">Servicios</a>
+                        <div class="dropdown-content">
+                            <a href="info1.html">Psicología infantil y juvenil</a>
+                            <a href="info3.html">Psicología sexual y pareja</a>
+                            <a href="info2.html">Personas con alta sensibilidad (PAS)</a>
+                        </div>
+                    </li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="container">
+                    <button class="btn">Pide cita: 652 527 287</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <section id="servicios-infantil" class="sobre-mi" style="height: 100vh;">
+            <div class="sobre-mi-content">
+                <div class="imagen">
+                    <img src="IMG/8.jpg" alt="Belen Sanchez Psicologa" class="img-sobre-mi" style="height: 400px;width: 550px;">
+                </div>
+                <div class="texto-sobre-mi">
+                    <h1><strong>Psicoterapia sexual y juvenil</strong></h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="container7">
+            <div class="texto7">
+                <h1 class="titulo7"><strong>¿En qué consiste?</strong></h1>
+                <p>¿Sientes que últimamente algo no funciona en tu pareja?, ¿hay discusiones de forma constante?, ¿crees que hay problemas de comunicación?, ¿sientes que si intentas expresar cómo te sientes hay censura, enfado, problemas…?  
+                    Existen ocasiones en las que los cambios: nos acabamos de mudar, he cambiado de trabajo, acabamos de tener un hijo, se ha producido una infidelidad… Hacen mella en nosotros y desgastan la relación. En ocasiones hacen que perdamos la ilusión, las ganas de seguir juntos, el deseo sexual…Que nos sintamos a disgusto con nuestra relación de pareja.  
+                    Seguramente pensemos que la terapia de pareja va destinada a parejas que encuentran en crisis por conflictos y grandes diferencias, pero la realidad es que la terapia también es eficaz en esas situaciones de pareja en las que hay desconfianza, miedos, dificultades para compartir emociones, sentimientos o incluso en las dificultades que pueden surgir en el inicio de una relación, ya que cada miembro de la relación piensa, opina y siente diferente.
+                    A través de la terapia sexual se puede trabajar la influencia negativa que recibimos a través de diferentes medios desmontando mitos y prejuicios en relación a la sexualidad o las relaciones de pareja que tanto nos ha influido e influye negativamente. En consulta se tratan diferentes disfunciones sexuales como la disfunción eréctil, la eyaculación precoz o retardada, la anorgasmia, vaginismo, falta de deseo, entre otras.</p>
+            </div>
+            
+          
+                <div class="especialidades">
+                   
+                    <div class="botones">
+                        <button class="btn" onclick="window.location.href='info1.html'">Psicoterapia infantil y juvenil</button>
+                        <button class="btn" onclick="window.location.href='info2.html'">Personas con alta sensibilidad (PAS)</button>
+                        <button class="btn" onclick="window.location.href='info3.html'">Terapia sexual y de pareja</button>
+                    </div>
+            </div>
+        </section>
+
+        <section id="sobremi" class="sobre-mi">
+            <div class="sobre-mi-content">
+                <div class="texto-sobre-mi">
+                    <h2>¿Cómo vamos a trabajar?</h2>
+                    <p class="descripcion">
+                        Es importante saber que, en la medida de lo posible, y siempre que se pueda, se recomendará que durante la terapia de pareja se haga terapia individual de cada miembro de la relación. ¿Por qué esto? Porque todos tenemos nuestros miedos individuales, nuestras heridas, nuestras historias que, al contacto con otra persona, puede que choquen, que impidan un desarrollo correcto del ciclo de la relación, etc. Por lo que, mientras trabajamos en la relación, es importante que individualmente trabajemos en nosotros para facilitar ese trabajo de pareja.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Sección izquierda: Logo -->
+            <div class="footer-logo">
+                <img src="IMG/1.png" alt="Logo de Elena Grigoras" width="100" height="100">
+                <p>Elena Grigoras</p>
+                <p>Psicóloga</p>
+            </div>
+
+            <!-- Sección central: Enlaces de navegación -->
+            <div class="footer-links">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobremi">Sobre mí</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Sección derecha: Contacto y redes sociales -->
+            <div class="footer-contact">
+                <h3>Contáctame</h3>
+                <p>Pide cita: <strong>652 527 287</strong></p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><img src="icon-facebook.png" alt="Facebook" width="30"></a>
+                    <a href="#" target="_blank"><img src="icon-instagram.png" alt="Instagram" width="30"></a>
+                    <a href="#" target="_blank"><img src="icon-twitter.png" alt="Twitter" width="30"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección inferior con enlaces legales -->
+        <div class="footer-legal">
+            <ul>
+                <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                <li><a href="cookies.html">Cookies</a></li>
+            </ul>
+            <p>&copy; 2024 Elena Grigoras. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="Psicologia.js"></script>
+</body>
+
+</html>
